@@ -1,6 +1,6 @@
 <?php
 
-namespace KBC;
+namespace LibConfig;
 
 require_once 'vendor/autoload.php';
 
