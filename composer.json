@@ -1,0 +1,19 @@
+{
+    "name": "amitxd/libconfig",
+    "description": "a tool that help you to manage with Config file..",
+    "scripts": {
+        "analyze": "vendor/bin/phpstan analyze src"
+    },
+    "require": {
+        "phpstan/phpstan": "^1.10.29",
+        "phpstan/phpstan-strict-rules": "^1.0",
+        "phpstan/extension-installer": "^1.0",
+        "symfony/yaml": "^6.3"
+    },
+    "license": "MIT Licence",
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    }
+}
