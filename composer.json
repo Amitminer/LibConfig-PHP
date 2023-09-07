@@ -1,6 +1,6 @@
 {
     "name": "amitxd/libconfig",
-    "description": "a tool that help you to manage with Config file..",
+    "description": "A tool that helps you manage configuration files.",
     "scripts": {
         "analyze": "vendor/bin/phpstan analyze src"
     },
@@ -10,9 +10,9 @@
         "phpstan/extension-installer": "^1.0",
         "symfony/yaml": "^6.3"
     },
-    "license": "MIT Licence",
+    "license": "MIT",
     "autoload": {
-        "psr-4": {"AmitxD\\LibConfig": "src/"}
+        "psr-4": {"AmitxD\\LibConfig\\": "src/"}
     },
     "config": {
         "allow-plugins": {
