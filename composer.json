@@ -11,6 +11,9 @@
         "symfony/yaml": "^6.3"
     },
     "license": "MIT Licence",
+    "autoload": {
+        "psr-4": {"AmitxD\\LibConfig": "src/"}
+    },
     "config": {
         "allow-plugins": {
             "phpstan/extension-installer": true
